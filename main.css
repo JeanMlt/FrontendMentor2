@@ -1,0 +1,107 @@
+@font-face {
+    font-family:Interbold;
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family:Inter semi-bold;
+    src: url('assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight:600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family:Interregular;
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight:400;
+    font-style:normal ;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+html{
+    background-color: #141414;
+    height:100%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontal center */
+    align-items: center;  
+    height:100% ;  /* Vertical center */
+    margin:30px;
+
+}
+h1{
+    color:white;
+    font-family: "Inter semi-bold";
+    font-size:25px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+h2{ font-family: "Inter semi-bold";
+    color: #c4f82a;
+    font-size:15px;
+    margin:0px;
+    margin-top: 10px;
+}
+p{  font-family: "Interregular";
+    font-size:14px;
+    color:white;
+    margin-top: 30px
+}
+.photo{
+    border-radius: 50%;
+    width: 30%;
+    height :auto;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.linkbox{
+    background-color: #1f1f1f;
+    height: auto;  
+    max-height:650px;
+    width: 100%;
+    max-width:350px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonsbox{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.button{
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:10px;
+    height:25px;
+    border-radius: 8px;
+    background-color: #333333;
+    font-family: "Interbold";
+    color:white;
+    font-size:15px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px; /* Match with your height */
+}
+
+.button:hover{
+    background-color:  #c4f82a;
+    color:black;
+}
